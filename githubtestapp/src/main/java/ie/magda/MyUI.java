@@ -31,7 +31,7 @@ public class MyUI extends UI {
 
         Button button = new Button("GitHub Demo");
         button.addClickListener(e -> {
-            layout.addComponent(new Label("GitHub Syncing!"));
+            layout.addComponent(new Label("GitHub Syncing! /n Github has synced :-)"));
         });
         
         layout.addComponents(name, button);
